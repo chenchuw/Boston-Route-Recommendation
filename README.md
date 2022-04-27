@@ -14,19 +14,13 @@ git clone https://github.com/chenchuw/EC504-Final-Project.git
 
 === Install the OSMnx package ===
 
-Again, in terminal, enter:
+cd into the osmnx package folder
 
 ```
-git clone https://github.com/gboeing/osmnx.git
+cd osmnx-main
 ```
 
-then, cd in the osmnx folder
-
-```
-cd osmnx
-```
-
-and install the OSMnx package
+Install the OSMnx package
 
 ```
 pip install -e .
