@@ -17,7 +17,7 @@ git clone https://github.com/chenchuw/EC504-Final-Project.git
 cd into the osmnx package folder
 
 ```
-cd osmnx-main
+cd EC504-Final-Project/osmnx-main
 ```
 
 Install the OSMnx package
