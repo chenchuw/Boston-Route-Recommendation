@@ -42,6 +42,12 @@ pip install matplotlib
 
 === Now, run Navigator.py ===
 
+Enter our folder containing our source codes:
+
+```
+cd Navigator
+```
+
 ***Note that within this project, all locations has to be located in Back Bay, Boston, USA.***
 
 There are two ways to interact with Navigator.py (Please strictly follow the format examples shown below):
