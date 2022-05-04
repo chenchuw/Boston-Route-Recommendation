@@ -33,7 +33,7 @@ dij_length,bell_length,astar_length, dij_runtime,bell_runtime,astar_runtime):
         # Add title
         text = "Shortest path calculated with "+mapNames[i]+" algorithm - Total distance = "+str(pathLengths[i])+" meters" " - Runtime = " + str(algoruntimes[i])+" sec"
         title_html = '''
-                    <h3 align="center" style="font-size:16px"><b>{}</b></h3>
+                    <h3 align="center" style="font-size:28px"><b>{}</b></h3>
                     '''.format(text)  
         maps[i].get_root().html.add_child(folium.Element(title_html))
 
