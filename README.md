@@ -4,7 +4,7 @@ Team member: Chuwei Chen, Shuhao Hu, Zhaowen Zhou, Zhaozhong Qi
 ## Route Recommendation System
 With geographical data and shortest pathfinding algorithms, we created an application that can map out the routing paths between two places in real time. For the main idea of this project, diaparte shortest path algorithms has been approached by three different perspectives, they are respectively the classical Dijkstra's, Bell-Ford, and A* algorithms.
 
-We used python packet OSMnx (Credit to Geoff Boeing) for this project.
+We used python packet OSMnx (Credit to Geoff Boeing!) for this project.
 
 Please follow the following instructions (MacOS or Linux) to run the project:
 
