@@ -5,7 +5,8 @@ Team member: Chuwei Chen, Shuhao Hu, Zhaowen Zhou, Zhaozhong Qi
 With geographical data and shortest pathfinding algorithms, we created an application that can map out the routing paths between two places in real time. For the main idea of this project, diaparte shortest path algorithms has been approached by three different perspectives, they are respectively the classical Dijkstra's, Bell-Ford, and A* algorithms.
 
 We used python packet OSMnx (Credit to Geoff Boeing) for this project.
-Please follow the following instructions to run the project:
+
+Please follow the following instructions (MacOS or Linux) to run the project:
 
 === Install our project Git repo ===
 
@@ -71,6 +72,10 @@ For example:
 python Navigator.py "lolita back bay" "first church in boston"
 ```
 
-When the program finished, maps with plotted shortest path are saved in current folder, please open it with your browswer to view the path and distances, etc. Thank you! :)
+When the program finished, maps with plotted shortest path are saved in current folder, please open it with your browswer or enter the following command to view the path and distances, etc. Thank you! :)
+
+```
+open astar_map.html | open bellman_map.html| open astar_map.html 
+```
 
 **Citation info**: Boeing, G. 2017. "[OSMnx: New Methods for Acquiring, Constructing, Analyzing, and Visualizing Complex Street Networks](https://geoffboeing.com/publications/osmnx-complex-street-networks/)." *Computers, Environment and Urban Systems* 65, 126-139. doi:10.1016/j.compenvurbsys.2017.05.004
