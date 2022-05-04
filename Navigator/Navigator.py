@@ -7,7 +7,14 @@ from Graph import Graph
 from print_result import print_result
 from print_map import print_map
 
-ox.config(log_console=True, use_cache=True)
+print("\nThank you for using our Navigator (Back Bay, Boston, USA)!\n\
+*Please note that ONLY places that could be found on OpenStreetMap can be used*\n\
+Some recommended routes: \n\
+first church in boston --> Atlantic fish back bay\n\
+boston architectural college --> gibson house back bay\n\n\
+Computing the shortest paths...\n")
+
+ox.config(log_console=False, use_cache=False)
 # Get the ROADS and NODES of Back bay, Boston
 # NODES(white dots) and EDGES(grey lines) are stored in Digraph
 place_name = "Back Bay, Massachusetts, USA"
@@ -27,12 +34,6 @@ for i in NodesAndLength:
     EdgeAndLength[(i[0],i[1])] = i[2]
 
 # === Takes USER INPUTS and Find the nearest nodes on current map ===
-print("Thank you for using our Navigator (Back Bay, Boston, USA)!\n\
-Please enter your starting location and destination location (in Back Bay, Boston)\n\
-You can either enter a place's name or the place's coordinate in this format: latitude, longitude \n\
-*Note that only places that could be found on OpenStreetMap can be used*\n\
-Recommendations: first church in boston --> Atlantic fish back bay\n\
-                 boston architectural college --> gibson house back bay")
 startPoint = sys.argv[1]
 destPoint = sys.argv[2]
 # startPoint = input("Your starting location: ")
@@ -69,8 +70,8 @@ else:
     orig_node = ox.distance.nearest_nodes(graph, startPoint.longitude, startPoint.latitude)
     dest_node = ox.distance.nearest_nodes(graph, destPoint.longitude, destPoint.latitude)
 
-print(orig_node)
-print(dest_node)
+# print(orig_node)
+# print(dest_node)
 
 
 dij_start_time = time.time()
