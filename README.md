@@ -4,7 +4,7 @@ Team member: Chuwei Chen, Shuhao Hu, Zhaowen Zhou, Zhaozhong Qi
 We used python packet OSMnx (Credit to Geoff Boeing) for this project.
 Please follow the following instructions to run the project:
 
-=== Install our project folder ===
+=== Install our project Git repo ===
 
 In terminal, enter:
 
@@ -24,12 +24,18 @@ Install the OSMnx package
 
 ```
 pip install -e .
+cd ..
+```
+
+=== Install other required packages ===
+```
+pip install geopy
+ADD HERE!!!
 ```
 
 Now, run map.ipynb
 
 ```
-cd ..
 ipython
 run map.ipynb
 ```
