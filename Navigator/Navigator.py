@@ -88,6 +88,7 @@ dij_length
 dij_end_time = time.time()
 
 dij_runtime = dij_end_time - dij_start_time
+dij_runtime ="{:.6}".format(dij_runtime)
 
 # Bellman-Ford Algorithm
 
@@ -106,6 +107,7 @@ bell_length
 bell_end_time = time.time()
 
 bell_runtime = bell_end_time - bell_start_time
+bell_runtime ="{:.6}".format(bell_runtime)
 
 # Astar Algorithm
 
@@ -135,6 +137,7 @@ astar_length = "{:.2f}".format(astar_length)
 astar_end_time = time.time()
 
 astar_runtime = astar_end_time - astar_start_time
+astar_runtime ="{:.6}".format(astar_runtime)
 
 # Plot the shortest route on Openstreet Map
 
