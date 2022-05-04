@@ -56,8 +56,30 @@ Feel free to change __coordinateOfDeparture__ __coordinateOfDestination__ to you
 
 For example:
 ```
-python Navigator.py 42.3498704,-71.0804434 42.3512842,-71.0777077
+python Navigator.py 42.3467236,-71.0796355 42.3546324,-71.0764676
 ```
+
+List of nodes (located in Back Bay, Boston) that you can play around with:
+
+42.351513,-71.086995
+
+42.350897,-71.077742
+
+42.351478,-71.075600	
+
+42.350843,-71.089478	
+
+42.351919,-71.085492	
+
+42.346796,-71.085049	
+
+42.346233,-71.078573	
+
+42.348102,-71.088705
+
+42.347934,-71.078730	
+
+42.347609,-71.079021	
 
 2. Pass departure, destination points by name of the location:
 
@@ -77,5 +99,8 @@ When the program finished, maps with plotted shortest path are saved in current 
 ```
 open astar_map.html | open bellman_map.html| open astar_map.html 
 ```
+
+Sample output html files:
+
 
 **Citation info**: Boeing, G. 2017. "[OSMnx: New Methods for Acquiring, Constructing, Analyzing, and Visualizing Complex Street Networks](https://geoffboeing.com/publications/osmnx-complex-street-networks/)." *Computers, Environment and Urban Systems* 65, 126-139. doi:10.1016/j.compenvurbsys.2017.05.004
