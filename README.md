@@ -33,11 +33,7 @@ cd ..
 
 === Install other required packages ===
 ```
-pip install geopy
-pip install scikit-learn
-pip install folium
-pip install numpy
-pip install matplotlib
+pip install geopy scikit-learn folium numpy matplotlib
 ```
 
 === Now, run Navigator.py ===
